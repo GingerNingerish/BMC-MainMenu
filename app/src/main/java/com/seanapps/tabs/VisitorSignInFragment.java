@@ -11,7 +11,6 @@ import android.widget.EditText;
 
 
 public class VisitorSignInFragment extends Fragment {
-    //private static final String TAG ="Tab1Fragment";
 
     EditText visitorNumberInput;
     Button visitorNumberSearchButton;

@@ -9,12 +9,9 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
-/**
- * Created by ginge on 7/06/2017.
- */
 
 public class AdminSignInFragment extends Fragment {
-    //private static final String TAG ="Tab1Fragment";
+
 
     EditText adminNameInput;
     EditText adminPasswordInput;
