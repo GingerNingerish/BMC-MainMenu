@@ -12,19 +12,14 @@ import android.widget.EditText;
 
 public class AdminSignInFragment extends Fragment {
 
-
-    EditText adminNameInput;
     EditText adminPasswordInput;
     Button adminSignInButton;
-
-
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.admin_sign_in_fragment,container,false);
 
-        adminNameInput = (EditText) view.findViewById(R.id.visitorNumberInput);
         adminPasswordInput = (EditText) view.findViewById(R.id.adminPasswordInput);
         adminSignInButton = (Button) view.findViewById(R.id.adminSignInButton);
 
